@@ -1,0 +1,157 @@
+#headerStretch{	
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 45px;
+	color: #FFF;
+	background-color: #444;
+	border-bottom: 1px solid #eaeaea;
+}
+
+header{
+	width: 915px;
+	top: 0px;
+	color: #FFF;
+	height: 45px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+header a:link {	
+	text-decoration: none;
+	color:#FFF;
+	text-align:center;
+}    
+
+header a:visited {color: #FFF;}  
+header a:hover {color: #DFF;} 
+header a:active {color: #EEE;} 
+
+.title{
+	letter-spacing: 0em;
+	color: rgb(142,11,0);
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.6);
+	float:left;
+	margin-left: 10px;
+	font-size: 2.5em;
+}
+
+.menu{
+	font-size: 1.5em;
+	color: #BBB;
+	display: inline;
+	list-style-type: none;
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.menu li{	
+	display: inline;
+	list-style-type: none;
+	border-color: #111;
+	border-width: 1px;
+	padding: 5px;
+}
+
+.menu li:hover{
+	background-color:#222;	
+}
+
+.menu a:link {	
+	text-decoration: none;
+	color:#BBB;
+	text-align:center;
+}  
+
+.menu a:visited {color: #BBB;}  
+.menu a:hover {color: #DFF;} 
+.menu a:active {color: #BBB;}  
+
+nav{
+	padding: 0px;
+	display: inline;
+}
+
+body{
+	font-family: Century Gothic, sans-serif;
+	background-color: #ADF;
+	width: 915px;
+	margin: 0 auto;
+}
+
+#main{
+	position: absolute;
+	top: 60px;
+	padding: 10px 30px;
+	width: 570px;
+	bottom: 70px;
+	background-color: white;
+	box-shadow: 3px 3px 5px 6px #777;
+	overflow: auto;
+}
+
+#prePost{
+	font-size: .7em;
+}
+
+#tags{
+	font-size: .7em;
+	font-weight: bold;
+}
+
+#contactBox{
+	position: relative;
+	background-color: white;
+	box-shadow: 3px 3px 5px 6px #777;
+	width: 200px;
+	bottom: 0px;
+	top: 60px;
+	padding: 10px 30px;
+	left: 650px;
+	height: 150px;
+}
+
+#secondBox{
+	position: relative;
+	background-color: white;
+	box-shadow: 3px 3px 5px 6px #777;
+	width: 200px;
+	bottom: 0px;
+	top: 90px;
+	padding: 10px 30px;
+	left: 650px;
+	height: 150px;
+}
+
+
+/* footer */
+
+#footerStretch {
+	position: absolute;
+	bottom:0px;
+	left: 0px;
+	height: 50px;
+	width: 100%;
+	color: #FFF;
+	background-color: #444;
+	border-top: 1px solid #eaeaea;
+	padding-top: 5px;
+}
+
+footer{
+	width: 915px;
+	color: #FFF;
+	text-align: center;
+	margin: 0 auto;	  
+}
+
+#copyright{
+	color: #FFF;
+	font-size: .7em;
+}
+
+footer small {
+  float: left;
+}
